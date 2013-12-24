@@ -1,0 +1,15 @@
+#dl-div {
+    max-height: 250px;
+    margin-bottom: 25px;
+    overflow: auto;
+}
+#dl-div a{
+    text-decoration: none;
+    border-bottom: 1px dotted #888;
+    color: #888;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    max-width:100%;
+}
